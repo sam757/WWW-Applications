@@ -1,0 +1,107 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.frames {
+  width: 65%;
+  height: 28px;
+  background: #1D1F20;
+  margin: auto;
+  border: none;
+}
+
+.frame-contain {
+  text-align: center;
+  padding-top: 30%;
+}
+
+.id {
+  width: 100%;
+  max-height: 300px;
+  margin: auto;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 0;
+}
+
+
+/********** BACKGROUND IMAGES AND STYLING FOR COLUMNS ********/
+#LA {
+  background-image: url("LA.jpg");
+}
+
+#LA h1 {
+  color: #E6A522;
+}
+
+#NY {
+  background-image: url("NY.jpg");
+}
+
+#NY h1 {
+  color: #22313F;
+}
+
+#London {
+  background-image: url("London.jpg");
+}
+
+#London h1 {
+  color: #2ABB9B;
+}
+
+#Tokyo {
+  background-image: url("tokyo.jpg");
+}
+
+#Tokyo h1 {
+  color: #AA0000;
+}
+
+
+/**************** MEDIA QUERIES **********************/
+@media only screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 64px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .frame-contain {
+    padding-top: 80%;
+  }
+
+  #LA h1 {
+    font-size: 2.8em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
